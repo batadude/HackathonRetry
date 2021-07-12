@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">>
+        <item>@font/miriam_libre_bold</item>
+    </array>
+    <item>@font/carter_one</item>
+    <item>@font/cousine</item>
+    <item>@font/fira_sans_medium</item>
+    <item>@font/fira_sans_thin</item>
+    <item>@font/krona_one</item>
+    <item>@font/miriam_libre</item>
+    <item>@font/rubik_light</item>
+
+</resources>

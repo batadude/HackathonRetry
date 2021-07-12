@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FinishScreen">
+
+    <TextView
+        android:id="@+id/labelFinish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="516dp"
+        android:fontFamily="@font/rubik_light"
+        android:gravity="center"
+        android:text="Congratulations! You did a set! "
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/buttonMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="134dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="144dp"
+        android:backgroundTint="@color/chill"
+        android:text="QUIT TO MENU"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonSet"
+        android:layout_width="338dp"
+        android:layout_height="87dp"
+        android:backgroundTint="@color/chill"
+        android:text="DO ANOTHER SET!"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="337dp"
+        android:layout_height="48dp"
+        android:fontFamily="@font/rubik_light"
+        android:gravity="center"
+        android:text="Do another or quit to menu?"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="360dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
